@@ -1,3 +1,9 @@
+@font-face {
+  font-family: amazonText;
+  src: url(AmazonEmber_Rg.ttf);
+}
+
 h1 {
+  font-family: amazonText;
   font-weight: 400;
 }
