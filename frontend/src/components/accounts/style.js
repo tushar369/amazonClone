@@ -23,6 +23,20 @@ const useStyles = makeStyles({
     marginBottom: "10px",
     textAlign: "left",
   },
+  inputHeading: {
+    textAlign: "left",
+    fontFamily: "amazonText",
+    fontWeight: "600",
+    fontSize: "14px",
+    marginBottom: "5px",
+  },
+  input: {
+    padding: "3px 7px",
+    height: "30px",
+    borderRadius: "4px",
+    border: "1px solid #a6a6a6",
+    boxShadow: "0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset",
+  },
 });
 
 export default useStyles;
