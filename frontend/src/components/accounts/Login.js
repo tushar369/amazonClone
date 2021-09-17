@@ -22,6 +22,7 @@ const Login = () => {
               Email or mobile phone number.
             </label>
             <input id="login-input" className={classes.input}></input>
+            <button className={classes.button}>Continue</button>
           </Paper>
         </Grid>
       </Grid>

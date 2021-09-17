@@ -36,6 +36,22 @@ const useStyles = makeStyles({
     borderRadius: "4px",
     border: "1px solid #a6a6a6",
     boxShadow: "0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset",
+    "&:focus": {
+      borderColor: "#e77600",
+      boxShadow: "0 0 3px 2px rgb(228 121 17 / 50%)",
+      outline: "none",
+    },
+  },
+  button: {
+    background: "#f4d17b",
+    borderRadius: "4px",
+    border: "1px solid black",
+    borderRadius: "5px",
+    margin: "20px 0",
+    height: "30px",
+    outline: "none",
+    borderColor: "#a88734 #9c7e31 #846a29",
+    fontFamily: "amazonText",
   },
 });
 
